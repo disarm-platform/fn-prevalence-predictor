@@ -1,8 +1,2 @@
-.idea
-.vscode
-**/__pycache__/
 build
-venv
-.DS_Store
 template
-fn-prevalence-predictor/dummy-stdout-file
