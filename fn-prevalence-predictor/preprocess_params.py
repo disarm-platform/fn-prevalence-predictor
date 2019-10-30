@@ -1,4 +1,4 @@
-from preprocess_helpers import write_temp_from_url_or_base64, required_exists, is_type
+from function.preprocess_helpers import required_exists, is_type
 
 
 def preprocess(params: dict):
