@@ -5,6 +5,6 @@ functions:
   fn-prevalence-predictor:
     lang: python-geospatial
     handler: ./fn-prevalence-predictor
-    image: disarm/fn-prevalence-predictor:1.1.5
+    image: disarm/fn-prevalence-predictor:1.2.0
     environment:
       combine_output: false
