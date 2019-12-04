@@ -1,5 +1,5 @@
 provider:
-  name: faas
+  name: openfaas
   gateway: https://faas.srv.disarm.io
 functions:
   fn-prevalence-predictor:
@@ -8,3 +8,4 @@ functions:
     image: disarm/fn-prevalence-predictor:1.2.0
     environment:
       combine_output: false
+      com.openfaas.scale.zero: true
