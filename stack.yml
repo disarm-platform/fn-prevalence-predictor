@@ -8,4 +8,5 @@ functions:
     image: disarm/fn-prevalence-predictor:1.2.0
     environment:
       combine_output: false
+    labels:
       com.openfaas.scale.zero: true
