@@ -1,5 +1,9 @@
 # fn-prevalence-predictor
 
+## Requirement
+
+This function requires that [`fn-covariate-extractor`](https://github.com/disarm-platform/fn-covariate-extractor) is deployed and available at the https://faas.srv.disarm.io.
+
 ## Building
 
 To build, you will need to first clone the relevant template. 
